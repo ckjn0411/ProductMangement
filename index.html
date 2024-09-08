@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block-left">
+        <div class="input-table">
+          <div class="header">
+            <h3 class="title">Thông tin sản phẩm</h3>
+          </div>
+          <form action="" class="form-input">
+            <div class="input input-name">
+              <label for="name">Tên sản phẩm</label>
+              <input class="input-box" id="name" type="text" />
+            </div>
+            <div class="input input-price">
+              <label for="price">Giá sản phẩm</label>
+              <input class="input-box" id="price" type="text" />
+            </div>
+            <div class="input input-amount">
+              <label for="quantity">Số lượng</label>
+              <input
+                class="input-box"
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+              />
+            </div>
+            <div class="input input-desc">
+              <label for="desc">Mô tả</label>
+              <div class="desc-box">
+                <textarea
+                  class="input-box"
+                  name="desc"
+                  id="desc"
+                  cols="20"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+            <div class="block-btn">
+              <button type="submit" class="btn btn-add">Add</button>
+              <button type="button" class="btn btn-del">Delete</button>
+              <button type="button" class="btn btn-clear">Clear</button>
+            </div>
+            <div class="btn-sp">
+              <button type="button" class="btn-remove">Remove All</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="show-prod">
+        <div class="search">
+          <input
+            id="filter"
+            type="text"
+            class="search-bar"
+            placeholder="Tìm kiếm sản phẩm..."
+          />
+          <button type="button" class="btn btn-search"></button>
+        </div>
+        <div class="product">
+          <!-- <div class="item">
+            <img
+              src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/08/bup-be-pop-mart-the-monsters-dress-be-latte-vinyl-plush-doll-mau-nau-66ab0575b9040-01082024104805.jpg"
+              alt=""
+            />
+            <div class="info-desc">
+              <div class="name-prd">Name</div>
+              <div class="cost">
+                <div class="cost-prd">10000</div>
+                <div class="sale">20000</div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="item">
+            <img
+              src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/08/bup-be-pop-mart-the-monsters-dress-be-latte-vinyl-plush-doll-mau-nau-66ab0575b9040-01082024104805.jpg"
+              alt=""
+            />
+            <div class="info-desc">
+              <div class="name-prd">Name</div>
+              <div class="cost">
+                <div class="cost-prd">10000</div>
+                <div class="sale">20000</div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="item">
+            <img
+              src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/08/bup-be-pop-mart-the-monsters-dress-be-latte-vinyl-plush-doll-mau-nau-66ab0575b9040-01082024104805.jpg"
+              alt=""
+            />
+            <div class="info-desc">
+              <div class="name-prd">Name</div>
+              <div class="cost">
+                <div class="cost-prd">10000</div>
+                <div class="sale">20000</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img
+              src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/08/bup-be-pop-mart-the-monsters-dress-be-latte-vinyl-plush-doll-mau-nau-66ab0575b9040-01082024104805.jpg"
+              alt=""
+            />
+            <div class="info-desc">
+              <div class="name-prd">Name</div>
+              <div class="cost">
+                <div class="cost-prd">10000</div>
+                <div class="sale">20000</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="./index.js"></script>
+  </body>
+</html>
